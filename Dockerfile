@@ -1,6 +1,6 @@
 FROM node:current-alpine3.17
 
-WORKDIR /consumer
+WORKDIR /api
 COPY . .
 
 RUN npm install
