@@ -1,12 +1,12 @@
 const controller = require('../serverController');
 
 describe("Testing message names", () => {
-    test("Name Pedro", () => {
+    test("Name AdrianLindão", () => {
     // arrange and act
     var result = controller.messageName("AdrianLindão")
     
     // assert
-    expect(result).toBe("my name is Pedro");
+    expect(result).toBe("my name is AdrianLindão");
     });
     
     test("empty name", () => {

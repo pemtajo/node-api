@@ -1,12 +1,12 @@
-name: learn-github-actions
-run-name: ${{ github.actor }} is learning GitHub Actions
+name: workflow
+run-name: ${{ github.actor }} is running pipeline
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
 jobs:
-  check-bats-version:
+  validate-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
