@@ -3,7 +3,7 @@ const controller = require('../serverController');
 describe("Testing message names", () => {
     test("Name AdrianLindão", () => {
     // arrange and act
-    var result = controller.messageName("AdrianLindão")
+    var result = controller.messageName("Pedro")
     
     // assert
     expect(result).toBe("my name is AdrianLindão");
