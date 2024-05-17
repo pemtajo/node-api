@@ -11,7 +11,7 @@ app.post('/user', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.status(200).send('<p>Hello, running a simple REST API in Nodejs</p>')
+    res.status(200).send('<p>Bom dia pessoal, rodando uma aplicação nodejs</p>')
 });
 
 app.listen(3000, function (err) {
