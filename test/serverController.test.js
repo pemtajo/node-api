@@ -6,7 +6,7 @@ describe("Testing message names", () => {
     var result = controller.messageName("Pedro")
     
     // assert
-    expect(result).toBe("my name is AdrianLindão");
+    expect(result).toBe("my name is Pedro");
     });
     
     test("empty name", () => {
